@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Lib1
 {
-    internal class LibClass1
+#if TEST1
+    public
+#endif
+    class LibClass1
     {
         public static void Hello()
         {
