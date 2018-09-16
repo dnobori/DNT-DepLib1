@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lib1
 {
-    public class LibClass1
+    internal class LibClass1
     {
         public static void Hello()
         {
